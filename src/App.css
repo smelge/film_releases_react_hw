@@ -6,7 +6,7 @@
   border-top: 2px solid gray;
 }
 
-a.upcoming-btn{
+.upcoming-btn{
   -webkit-appearance:button;
   -moz-appearance:button;
   appearance:button;
@@ -17,7 +17,7 @@ a.upcoming-btn{
   text-align: center;
   font-size: 16px;
   padding: 20px;
-  width: inherit;
+  width: 92%;
   margin-top:5px;
 }
 
