@@ -3,7 +3,9 @@ import React,{Component} from 'react';
 class FilmInfo extends Component{
   render(){
     return(
-      <li>This is a list item for a film</li>
+      <li>
+        <a href={this.props.url} target="_blank">{this.props.name}</a>
+      </li>
     )
   }
 }
